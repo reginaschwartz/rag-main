@@ -1,0 +1,58 @@
+spring:
+  application:
+    name: rag-api
+  # Mirrors python-dotenv: values from a .env file are loaded when present.
+  config:
+    import:
+      - optional:file:./.env[.properties]
+      - optional:file:../.env[.properties]
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  main:
+    banner-mode: "off"
+
+server:
+  port: 8000
+  error:
+    include-message: never
+
+springdoc:
+  swagger-ui:
+    path: /docs
+  api-docs:
+    path: /openapi.json
+
+logging:
+  level:
+    root: info
+
+openai:
+  api-key: ${OPENAI_API_KEY:}
+  base-url: ${OPENAI_BASE_URL:https://api.openai.com/v1}
+  embedding-model: ${OPENAI_EMBEDDING_MODEL:text-embedding-ada-002}
+  chat-model: ${OPENAI_CHAT_MODEL:gpt-4o-mini}
+  temperature: ${OPENAI_TEMPERATURE:0.7}
+  timeout: ${OPENAI_TIMEOUT:60s}
+  embedding-batch-size: ${OPENAI_EMBEDDING_BATCH_SIZE:200}
+
+postgres:
+  host: ${POSTGRES_HOST:}
+  port: ${POSTGRES_PORT:5432}
+  db: ${POSTGRES_DB:}
+  user: ${POSTGRES_USER:}
+  password: ${POSTGRES_PASSWORD:}
+
+pgvector:
+  connection: ${PGVECTOR_CONNECTION:}
+  collection: ${PGVECTOR_COLLECTION:default}
+
+rag:
+  data-path: ${RAG_DATA_PATH:data/books}
+  glob-pattern: ${RAG_GLOB_PATTERN:*.md}
+  chunk-size: 300
+  chunk-overlap: 100
+  default-k: 3
+  default-min-relevance: 0.7
+  init-schema-on-startup: true
