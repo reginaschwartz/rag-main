@@ -1,0 +1,43 @@
+Content-Type: multipart/alternative; boundary="===============8691732795591883366=="
+MIME-Version: 1.0
+From: jobalerts-noreply@linkedin.com
+To: candidate@example.com
+Subject: New jobs for Java Software Engineer
+Date: Fri, 07 Aug 2026 07:00:00 -0000
+
+--===============8691732795591883366==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Senior Java Backend Engineer at Acme Cloud Ltd
+--===============8691732795591883366==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html><body>
+<table>
+  <tr><td>
+    <a href="https://www.linkedin.com/jobs/view/4123456789/?refId=abc">Senior Java Backend Engineer</a><br/>
+    Acme Cloud Ltd<br/>
+    Tel Aviv, Israel<br/>
+    2 days ago<br/>
+    Java Spring Boot Kafka microservices PostgreSQL
+  </td></tr>
+  <tr><td>
+    <a href="https://www.linkedin.com/comm/jobs/view/4987654321">Frontend React Developer</a><br/>
+    Pixel Labs<br/>
+    Remote<br/>
+    React TypeScript CSS
+  </td></tr>
+  <tr><td>
+    <a href="https://www.linkedin.com/jobs/view/4555666777/">Java Software Engineer</a><br/>
+    FinServe Bank<br/>
+    Herzliya, Israel<br/>
+    Java Spring REST API SQL Docker
+  </td></tr>
+</table>
+</body></html>
+--===============8691732795591883366==--
