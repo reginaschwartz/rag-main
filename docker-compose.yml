@@ -29,12 +29,58 @@ services:
     environment:
       POSTGRES_HOST: postgres
       PGVECTOR_CONNECTION: postgresql+psycopg://raguser:ragpass@postgres:5432/ragdb
+      # Remote debugging. address must be *:5005, not 5005, or the JVM binds
+      # loopback-only inside the container and the published port never connects.
+      # Use suspend=y instead when debugging startup or bean wiring.
+      JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006"
     ports:
       - "8000:8000"
+      # Loopback-only: an open JDWP port is unauthenticated remote code execution.
+      - "127.0.0.1:5006:5006"
     volumes:
       # Mounted so the bulk indexer (--rag.cli=index) can read documents from the host.
       - ./data:/app/data
+      - ./reports:/app/reports
+    # API only — do not pass --rag.cli=jobs here; JobScanAgent runs via POST /jobs/scan.
     restart: unless-stopped
+
+  # Optional one-shot CLI only. Not started by `docker compose up` (profile: jobs).
+  # Prefer POST /jobs/scan on the `app` service. To run CLI manually:
+  #   docker compose --profile jobs run --rm job-agent
+  job-agent:
+    profiles: ["jobs"]
+    build:
+      context: ./rag-java
+      dockerfile: Dockerfile
+    container_name: rag_job_agent
+    env_file:
+      - .env
+    environment:
+      JOBS_SOURCE: ${JOBS_SOURCE:-imap}
+      JOBS_SINCE: ${JOBS_SINCE:-2026-08-01}
+      JOBS_RESUME_PATH: ${JOBS_RESUME_PATH:-data/Java_Software_Back_End_Developer-General.docx}
+      JOBS_EML_PATH: ${JOBS_EML_PATH:-data/mail-samples}
+      JOBS_REPORT_PATH: ${JOBS_REPORT_PATH:-reports/job-fitness-report.json}
+      JOBS_SENDER: ${JOBS_SENDER:-jobalerts-noreply@linkedin.com}
+      JOBS_MAIL_HOST: ${JOBS_MAIL_HOST:-}
+      JOBS_MAIL_PORT: ${JOBS_MAIL_PORT:-993}
+      JOBS_MAIL_PROTOCOL: ${JOBS_MAIL_PROTOCOL:-imaps}
+      JOBS_MAIL_USERNAME: ${JOBS_MAIL_USERNAME:-}
+      JOBS_MAIL_PASSWORD: ${JOBS_MAIL_PASSWORD:-}
+      JOBS_MAIL_FOLDER: ${JOBS_MAIL_FOLDER:-INBOX}
+      JOBS_NOTIFY_ENABLED: ${JOBS_NOTIFY_ENABLED:-true}
+      JOBS_NOTIFY_TO: ${JOBS_NOTIFY_TO:-rinatschwartz770@gmail.com}
+      JOBS_NOTIFY_MIN_RANK: ${JOBS_NOTIFY_MIN_RANK:-80}
+      JOBS_NOTIFY_SMTP_HOST: ${JOBS_NOTIFY_SMTP_HOST:-smtp.gmail.com}
+      JOBS_NOTIFY_SMTP_PORT: ${JOBS_NOTIFY_SMTP_PORT:-587}
+      JOBS_NOTIFY_SMTP_USERNAME: ${JOBS_NOTIFY_SMTP_USERNAME:-}
+      JOBS_NOTIFY_SMTP_PASSWORD: ${JOBS_NOTIFY_SMTP_PASSWORD:-}
+      JOBS_NOTIFY_SMTP_FROM: ${JOBS_NOTIFY_SMTP_FROM:-}
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    command: ["--rag.cli=jobs"]
+    restart: "no"
 
 volumes:
   pgdata:

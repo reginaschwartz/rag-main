@@ -15,6 +15,7 @@ import java.util.Map;
 import java.util.UUID;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
@@ -30,6 +31,7 @@ import org.springframework.transaction.support.TransactionTemplate;
  * {@code similarity_search_with_relevance_scores}.
  */
 @Component
+@ConditionalOnProperty(name = "rag.database.enabled", havingValue = "true", matchIfMissing = true)
 public class PgVectorStore {
 
     private static final Logger log = LoggerFactory.getLogger(PgVectorStore.class);

@@ -1,6 +1,7 @@
 package com.example.rag.document;
 
 import com.example.rag.error.ApiException;
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.charset.CharacterCodingException;
@@ -12,6 +13,8 @@ import java.util.List;
 import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
+import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.springframework.stereotype.Component;
 
 /** Turns an uploaded PDF or UTF-8 text file into plain text. */
@@ -19,10 +22,27 @@ import org.springframework.stereotype.Component;
 public class ContentExtractor {
 
     public String extract(byte[] rawBytes, String source) {
-        if (source != null && source.toLowerCase().endsWith(".pdf")) {
+        String name = source != null ? source.toLowerCase() : "";
+        if (name.endsWith(".pdf")) {
             return extractPdf(rawBytes);
         }
+        if (name.endsWith(".docx")) {
+            return extractDocx(rawBytes);
+        }
         return extractText(rawBytes);
+    }
+
+    private String extractDocx(byte[] rawBytes) {
+        try (XWPFDocument document = new XWPFDocument(new ByteArrayInputStream(rawBytes));
+                XWPFWordExtractor extractor = new XWPFWordExtractor(document)) {
+            String content = extractor.getText();
+            if (content == null || content.isBlank()) {
+                throw ApiException.badRequest("Uploaded .docx has no extractable text.");
+            }
+            return content.strip();
+        } catch (IOException exception) {
+            throw ApiException.badRequest("Uploaded file could not be read as a .docx.");
+        }
     }
 
     private String extractPdf(byte[] rawBytes) {

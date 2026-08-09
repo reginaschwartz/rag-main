@@ -13,8 +13,16 @@ public class RagApplication {
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(RagApplication.class);
         if (CliMode.isRequested(args)) {
-            // The batch/query scripts are one-shot commands, so no HTTP server is started for them.
+            // The batch/query/jobs scripts are one-shot commands, so no HTTP server is started for them.
             application.setWebApplicationType(WebApplicationType.NONE);
+        }
+        if (CliMode.isJobs(args)) {
+            // Job scanning only needs mail + OpenAI; skip Postgres wiring.
+            System.setProperty("rag.database.enabled", "false");
+            System.setProperty("spring.autoconfigure.exclude",
+                    "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,"
+                            + "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration,"
+                            + "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration");
         }
         application.run(args);
     }

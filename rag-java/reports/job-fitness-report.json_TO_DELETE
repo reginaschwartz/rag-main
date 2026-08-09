@@ -1,0 +1,547 @@
+{
+  "generatedAt" : "2026-08-09T07:00:56.630270136Z",
+  "resumePath" : "data/Java_Software_Back_End_Developer-General.docx",
+  "mailSource" : "IMAP rinatschwartz770@gmail.com@imap.gmail.com/INBOX",
+  "emailsScanned" : 23,
+  "jobsScanned" : 77,
+  "results" : [ {
+    "jobTitle" : "Senior Java Developer CWAF Thales · Rehovot (Hybrid) Actively recruiting",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4407835323/",
+    "fitnessRank" : 90,
+    "company" : "Senior Java Developer CWAF",
+    "location" : "Thales · Rehovot (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer with a strong focus on Java and related technologies, making them a strong match for the Senior Java Developer role."
+  }, {
+    "jobTitle" : "Senior Software Engineer (Cloud/Backend) Ethosia · Raanana (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448020317/",
+    "fitnessRank" : 90,
+    "company" : "Senior Software Engineer (Cloud/Backend)",
+    "location" : "Ethosia · Raanana (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer with a strong focus on backend technologies and cloud environments, aligning well with the job requirements for a Senior Software Engineer in Cloud/Backend."
+  }, {
+    "jobTitle" : "Tech Lead comblack · Center District, Israel (Hybrid) 9 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450244419/",
+    "fitnessRank" : 90,
+    "company" : "Tech Lead",
+    "location" : "comblack · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Technical Lead with a strong background in software development, particularly in distributed systems and microservices, which aligns well with the Tech Lead role. Their skills in cloud environments and leadership further enhance their fit for the position."
+  }, {
+    "jobTitle" : "Backend Developer (37164) מרטנס | Mertens – מקבוצת מלם תים · Center District, Israel (On-site) 13 school alumni Easy Apply Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450231972/",
+    "fitnessRank" : 85,
+    "company" : "Backend Developer (37164)",
+    "location" : "מרטנס | Mertens – מקבוצת מלם תים · Center District, Israel (On-site)",
+    "rationale" : "The candidate has extensive experience in backend development, particularly with Java and microservices, which aligns well with the job posting for a Backend Developer. Their seniority and technical skills are strong matches, although the specific company and role context may differ."
+  }, {
+    "jobTitle" : "Java Software Engineer NGsoft · Petah Tikva (Hybrid) 3 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448092147/",
+    "fitnessRank" : 85,
+    "company" : "Java Software Engineer",
+    "location" : "NGsoft · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has extensive experience in Java and backend development, along with strong skills in microservices and cloud environments, making them a strong match for the Java Software Engineer role."
+  }, {
+    "jobTitle" : "Senior Back End Developer Speria · Petah Tikva (Hybrid) 1 company alum Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4413420945/",
+    "fitnessRank" : 85,
+    "company" : "Senior Back End Developer",
+    "location" : "Speria · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer with a strong focus on backend technologies, microservices, and cloud environments, which aligns well with the requirements for a Senior Back End Developer role."
+  }, {
+    "jobTitle" : "Senior Software Engineer Nisha Group - קבוצת נישה · Kfar Saba (Hybrid) 7 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445839565/",
+    "fitnessRank" : 85,
+    "company" : "Senior Software Engineer",
+    "location" : "Nisha Group - קבוצת נישה · Kfar Saba (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer with strong skills in Java and microservices, which aligns well with the Senior Software Engineer role. Their background in cloud environments and technical leadership further supports a strong match."
+  }, {
+    "jobTitle" : "Backend Engineer Gotfriends · Center District, Israel (Hybrid) 1 company alum Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445882465/",
+    "fitnessRank" : 80,
+    "company" : "Backend Engineer",
+    "location" : "Gotfriends · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has extensive experience in backend development, particularly with Java and microservices, which aligns well with the requirements for a Backend Engineer role. However, the resume does not provide specific details about the job posting's expectations, which may indicate some gaps."
+  }, {
+    "jobTitle" : "Senior Lead Developer BDO Israel · Center District, Israel (Hybrid) 1 company alum Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448984098/",
+    "fitnessRank" : 80,
+    "company" : "Senior Lead Developer",
+    "location" : "BDO Israel · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, with strong skills in backend technologies and cloud environments, which aligns well with the Senior Lead Developer role. However, the specific company context and potential differences in focus areas may introduce some gaps."
+  }, {
+    "jobTitle" : "Senior Software Engineer - Data Platform Group Thales · Rehovot (Hybrid) Actively recruiting",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4400243380/",
+    "fitnessRank" : 80,
+    "company" : "Senior Software Engineer - Data Platform Group",
+    "location" : "Thales · Rehovot (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer with strong skills in backend technologies, cloud environments, and microservices, which align well with the requirements for a Senior Software Engineer role."
+  }, {
+    "jobTitle" : "Senior Software Engineer Applied Materials - Israel · Rehovot Actively recruiting",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448041381/",
+    "fitnessRank" : 80,
+    "company" : "Senior Software Engineer",
+    "location" : "Applied Materials - Israel · Rehovot",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer with strong skills in Java and backend technologies, which aligns well with the Senior Software Engineer role. However, the specific company and industry context may present some gaps."
+  }, {
+    "jobTitle" : "Senior Software Engineer Ethosia · Raanana (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4440104706/",
+    "fitnessRank" : 80,
+    "company" : "Senior Software Engineer",
+    "location" : "Ethosia · Raanana (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, with strong skills in Java and backend technologies, which align well with the Senior Software Engineer role. However, the job posting lacks specific details about the required technologies or frameworks, which prevents a higher score."
+  }, {
+    "jobTitle" : "Senior Staff Backend Engineer (Modern DV) Palo Alto Networks · Petah Tikva (On-site) 1 connection Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4420193762/",
+    "fitnessRank" : 80,
+    "company" : "Senior Staff Backend Engineer (Modern DV)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, with strong backend engineering skills and relevant technologies, making them a strong match for the Senior Staff Backend Engineer role."
+  }, {
+    "jobTitle" : "Software Development Team Lead Strategic Matching · Rosh HaAyin (On-site) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449200290/",
+    "fitnessRank" : 80,
+    "company" : "Software Development Team Lead",
+    "location" : "Strategic Matching · Rosh HaAyin (On-site)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, with strong skills in software development, architecture, and team leadership, which aligns well with the requirements for a Software Development Team Lead."
+  }, {
+    "jobTitle" : "Software Team Lead Commit · Petah Tikva (On-site) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445855351/",
+    "fitnessRank" : 80,
+    "company" : "Software Team Lead",
+    "location" : "Commit · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, which aligns well with the Software Team Lead position. Their strong background in software development, technical leadership, and relevant technologies makes them a strong match."
+  }, {
+    "jobTitle" : "BackEnd Developer (37190) מרטנס | Mertens – מקבוצת מלם תים · Center District, Israel (On-site) 13 school alumni Easy Apply Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450228861/",
+    "fitnessRank" : 70,
+    "company" : "BackEnd Developer (37190)",
+    "location" : "מרטנס | Mertens – מקבוצת מלם תים · Center District, Israel (On-site)",
+    "rationale" : "The candidate has strong backend development experience and relevant skills in Java and microservices, but lacks specific details about the job requirements for the BackEnd Developer position, which may indicate some gaps."
+  }, {
+    "jobTitle" : "Java Back End Developer Dixilang · Rehovot (On-site) 1 school alum Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446608893/",
+    "fitnessRank" : 70,
+    "company" : "Java Back End Developer",
+    "location" : "Dixilang · Rehovot (On-site)",
+    "rationale" : "The candidate has strong Java and backend development experience, but their extensive focus on technical leadership and AI workflows may not align directly with the specific requirements of a Java Back End Developer role."
+  }, {
+    "jobTitle" : "Senior Software Engineer NVIDIA · Raanana 109 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4403693176/",
+    "fitnessRank" : 70,
+    "company" : "Senior Software Engineer",
+    "location" : "NVIDIA · Raanana",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, which aligns well with the Senior Software Engineer role. However, the resume lacks specific mention of NVIDIA's technologies or focus areas, indicating some gaps."
+  }, {
+    "jobTitle" : "Software Team Lead Commit · Petah Tikva (On-site) Actively recruiting",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448874110/",
+    "fitnessRank" : 70,
+    "company" : "Software Team Lead",
+    "location" : "Commit · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, which aligns well with the Software Team Lead role. However, the resume lacks specific details about team management and leadership experience, which are crucial for a team lead position."
+  }, {
+    "jobTitle" : "Staff Backend Engineer- Agent Experience (AX) Cloudinary · Petah Tikva (Hybrid) 12 company alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4430340251/",
+    "fitnessRank" : 70,
+    "company" : "Staff Backend Engineer- Agent Experience (AX)",
+    "location" : "Cloudinary · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and relevant skills in Java and microservices, but lacks specific mention of experience with agent experience or the particular technologies used at Cloudinary."
+  }, {
+    "jobTitle" : "AI Engineer Cellebrite · Petah Tikva (On-site) 1 connection Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4447901315/",
+    "fitnessRank" : 60,
+    "company" : "AI Engineer",
+    "location" : "Cellebrite · Petah Tikva (On-site)",
+    "rationale" : "The candidate has strong backend development experience and expertise in AI workflows, which aligns with the AI Engineer role; however, the primary focus on software development and technical leadership may not fully match the specific requirements of an AI Engineer position."
+  }, {
+    "jobTitle" : "AI Solution Engineer (1007348) Elad Software Systems · Rishon LeZion (Hybrid) 49 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450231510/",
+    "fitnessRank" : 60,
+    "company" : "AI Solution Engineer (1007348)",
+    "location" : "Elad Software Systems · Rishon LeZion (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and expertise in AI workflows, which aligns with the AI Solution Engineer role; however, the resume primarily focuses on software development rather than AI solutions specifically, indicating some gaps."
+  }, {
+    "jobTitle" : "Backend Engineer comblack · Center District, Israel (Hybrid) 9 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450262420/",
+    "fitnessRank" : 60,
+    "company" : "Backend Engineer",
+    "location" : "comblack · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and relevant skills in Java and microservices, but lacks specific details about the company and role requirements, which may indicate some gaps."
+  }, {
+    "jobTitle" : "Cloud Platform Engineer Teads · Netanya (Hybrid) 7 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4436613100/",
+    "fitnessRank" : 60,
+    "company" : "Cloud Platform Engineer",
+    "location" : "Teads · Netanya (Hybrid)",
+    "rationale" : "The candidate has strong experience in software development and cloud technologies, but the resume does not specifically highlight skills or experience directly related to cloud platform engineering, which may lead to some gaps."
+  }, {
+    "jobTitle" : "DevOps Engineer NVIDIA AI · Raanana",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445021674/",
+    "fitnessRank" : 60,
+    "company" : "DevOps Engineer",
+    "location" : "NVIDIA AI · Raanana",
+    "rationale" : "The candidate has strong experience in software development and cloud technologies, which are relevant to a DevOps role, but lacks specific DevOps-focused experience and may not fully meet the expectations for a dedicated DevOps Engineer position."
+  }, {
+    "jobTitle" : "Engineering Team Lead zap group · Center District, Israel (On-site) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446235946/",
+    "fitnessRank" : 60,
+    "company" : "Engineering Team Lead",
+    "location" : "zap group · Center District, Israel (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, which aligns with the Engineering Team Lead role; however, the resume lacks specific details about team management and leadership in an engineering context."
+  }, {
+    "jobTitle" : "Platform DevOps Engineer D-Fend Solutions · Raanana (On-site) 6 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4447057704/",
+    "fitnessRank" : 60,
+    "company" : "Platform DevOps Engineer",
+    "location" : "D-Fend Solutions · Raanana (On-site)",
+    "rationale" : "The candidate has strong experience in software development and cloud technologies, which are relevant to a DevOps role, but lacks specific DevOps-focused experience and may need to stretch to fully meet the requirements of a Platform DevOps Engineer."
+  }, {
+    "jobTitle" : "Senior AI Solutions Builder Cloudinary · Petah Tikva (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4410807024/",
+    "fitnessRank" : 60,
+    "company" : "Senior AI Solutions Builder",
+    "location" : "Cloudinary · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and expertise in AI workflows, which aligns with the role of an AI Solutions Builder. However, the resume lacks specific details about experience directly related to building AI solutions in a cloud environment, which may indicate some gaps."
+  }, {
+    "jobTitle" : "Senior Application Engineer – Lightbits Inferra Lightbits Labs · Kfar Saba (Hybrid) 2 company alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449205755/",
+    "fitnessRank" : 60,
+    "company" : "Senior Application Engineer – Lightbits Inferra",
+    "location" : "Lightbits Labs · Kfar Saba (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and technical leadership skills, but the resume lacks specific mention of application engineering and the technologies relevant to Lightbits Inferra, indicating some gaps."
+  }, {
+    "jobTitle" : "Senior Automation Engineer (Backend & AI) Foresight Automotive · Ness Ziona (Hybrid) 1 company alum",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448829065/",
+    "fitnessRank" : 60,
+    "company" : "Senior Automation Engineer (Backend & AI)",
+    "location" : "Foresight Automotive · Ness Ziona (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and some relevant skills in AI, but lacks specific automation engineering experience which is crucial for the role."
+  }, {
+    "jobTitle" : "Senior Full Stack Developer (Backend-Oriented) Bagira · Modiin-Maccabim-Reut (Hybrid) 11 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4370318980/",
+    "fitnessRank" : 60,
+    "company" : "Senior Full Stack Developer (Backend-Oriented)",
+    "location" : "Bagira · Modiin-Maccabim-Reut (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and relevant skills in Java and microservices, but lacks explicit full stack experience and may need to stretch to meet the full requirements of a Senior Full Stack Developer role."
+  }, {
+    "jobTitle" : "Senior Staff Software Engineer (EPM) Palo Alto Networks · Petah Tikva (On-site) 1 connection Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4419293957/",
+    "fitnessRank" : 60,
+    "company" : "Senior Staff Software Engineer (EPM)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, which aligns with the seniority level of the job posting. However, the specific focus on EPM (Enterprise Performance Management) is not evident in the resume, indicating a gap in domain-specific experience."
+  }, {
+    "jobTitle" : "Staff Backend Engineer - Moderation Cloudinary · Petah Tikva (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449121944/",
+    "fitnessRank" : 60,
+    "company" : "Staff Backend Engineer - Moderation",
+    "location" : "Cloudinary · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and relevant skills in Java and microservices, but lacks specific experience in moderation technologies or the particular domain of Cloudinary."
+  }, {
+    "jobTitle" : "Staff Software Engineer (Credential Provider) Palo Alto Networks · Petah Tikva (On-site) Actively recruiting Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4430232600/",
+    "fitnessRank" : 60,
+    "company" : "Staff Software Engineer (Credential Provider)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, particularly in backend technologies and distributed systems, which aligns well with the role. However, the specific focus on credential provisioning and security aspects relevant to Palo Alto Networks is not evident in the resume."
+  }, {
+    "jobTitle" : "AI Leader ONE datAI · Yavne (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446670014/",
+    "fitnessRank" : 40,
+    "company" : "AI Leader",
+    "location" : "ONE datAI · Yavne (Hybrid)",
+    "rationale" : "The candidate has strong technical skills and experience in software development and AI, but the role of AI Leader may require more strategic leadership and vision in AI initiatives, which is not clearly demonstrated in the resume."
+  }, {
+    "jobTitle" : "AI Solutions Engineer IAI - Israel Aerospace Industries · Yehud Monosson (On-site) Actively recruiting",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445835644/",
+    "fitnessRank" : 40,
+    "company" : "AI Solutions Engineer",
+    "location" : "IAI - Israel Aerospace Industries · Yehud Monosson (On-site)",
+    "rationale" : "The candidate has strong backend development and AI skills, but the role of AI Solutions Engineer may require a different focus on AI application rather than backend architecture, leading to a partial match."
+  }, {
+    "jobTitle" : "AI Solutions Lead ONE datAI · Yavne (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448018820/",
+    "fitnessRank" : 40,
+    "company" : "AI Solutions Lead",
+    "location" : "ONE datAI · Yavne (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and some exposure to AI, but the role of AI Solutions Lead likely requires more specialized AI expertise and leadership in AI-specific projects, which is not clearly demonstrated in the resume."
+  }, {
+    "jobTitle" : "Backend manager Deloitte · Center District, Israel (Hybrid) Actively recruiting Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448973752/",
+    "fitnessRank" : 40,
+    "company" : "Backend manager",
+    "location" : "Deloitte · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience but lacks specific managerial experience and does not directly align with the backend manager role, which may require more leadership and strategic oversight."
+  }, {
+    "jobTitle" : "Big Data Team Leader ControlUp · Center District, Israel (Hybrid) 4 company alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4447880683/",
+    "fitnessRank" : 40,
+    "company" : "Big Data Team Leader",
+    "location" : "ControlUp · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has strong software development experience, particularly in backend technologies, but lacks specific experience in big data technologies and leadership in a big data context, which are critical for the role."
+  }, {
+    "jobTitle" : "CTO / Hands-On Technology Lead Asaf Barel · Center District, Israel (On-site) Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446650561/",
+    "fitnessRank" : 40,
+    "company" : "CTO / Hands-On Technology Lead",
+    "location" : "Asaf Barel · Center District, Israel (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, but the role of CTO typically requires broader strategic and business leadership skills, which are not clearly demonstrated in the resume."
+  }, {
+    "jobTitle" : "Data Infrastructure Team Lead Chargeflow · Modiin-Maccabim-Reut (Hybrid) 1 connection Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448154820/",
+    "fitnessRank" : 40,
+    "company" : "Data Infrastructure Team Lead",
+    "location" : "Chargeflow · Modiin-Maccabim-Reut (Hybrid)",
+    "rationale" : "The candidate has strong software development experience, particularly in backend technologies, but lacks specific experience in data infrastructure leadership and the job posting does not align closely with their core skills."
+  }, {
+    "jobTitle" : "Data Specialist Medison Pharma · Petah Tikva (Hybrid) 8 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449733529/",
+    "fitnessRank" : 40,
+    "company" : "Data Specialist",
+    "location" : "Medison Pharma · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has strong technical skills in software development and backend technologies, but lacks specific experience or skills related to data specialization, which is the focus of the job posting."
+  }, {
+    "jobTitle" : "DevOps Engineer ThetaRay · Hod HaSharon (Hybrid) 7 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446919831/",
+    "fitnessRank" : 40,
+    "company" : "DevOps Engineer",
+    "location" : "ThetaRay · Hod HaSharon (Hybrid)",
+    "rationale" : "The candidate has strong backend development and cloud experience, but lacks specific DevOps-focused roles and responsibilities, making this a partial match."
+  }, {
+    "jobTitle" : "Engineer Software- Authentication Team (Idira) Palo Alto Networks · Petah Tikva (On-site) Actively recruiting Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445845504/",
+    "fitnessRank" : 40,
+    "company" : "Engineer Software- Authentication Team (Idira)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but the resume does not specifically mention authentication systems or related security protocols, which are likely critical for the role."
+  }, {
+    "jobTitle" : "Integration & Infrastructure Developer (37135) מרטנס | Mertens – מקבוצת מלם תים · Center District, Israel (On-site) Actively recruiting Easy Apply Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448154028/",
+    "fitnessRank" : 40,
+    "company" : "Integration & Infrastructure Developer (37135)",
+    "location" : "מרטנס | Mertens – מקבוצת מלם תים · Center District, Israel (On-site)",
+    "rationale" : "The candidate has strong backend development experience and cloud skills, but the focus on integration and infrastructure development is not clearly aligned with their primary expertise in software development and AI workflows."
+  }, {
+    "jobTitle" : "Lead Software Engineer, Software Defined Storage Sandisk · Kfar Saba 12 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448191859/",
+    "fitnessRank" : 40,
+    "company" : "Lead Software Engineer, Software Defined Storage",
+    "location" : "Sandisk · Kfar Saba",
+    "rationale" : "The candidate has strong software development experience, particularly in backend technologies, but lacks specific experience in software-defined storage, which is a key focus of the job posting."
+  }, {
+    "jobTitle" : "Modern Infrastructure Software Architect Finastra · Kfar Saba Actively recruiting",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448837457/",
+    "fitnessRank" : 40,
+    "company" : "Modern Infrastructure Software Architect",
+    "location" : "Finastra · Kfar Saba",
+    "rationale" : "The candidate has strong backend development experience and technical leadership skills, but the role of Modern Infrastructure Software Architect may require a different focus on infrastructure design and architecture that is not explicitly highlighted in the resume."
+  }, {
+    "jobTitle" : "Principal Engineer Software- Identity User Management (Idira) Palo Alto Networks · Petah Tikva (On-site) 121 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4419286912/",
+    "fitnessRank" : 40,
+    "company" : "Principal Engineer Software- Identity User Management (Idira)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but lacks specific experience in identity user management and the principal engineer role, which may require a different focus than their current expertise."
+  }, {
+    "jobTitle" : "Security Software Engineer Technical Leader Cisco · Netanya 145 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4441266677/",
+    "fitnessRank" : 40,
+    "company" : "Security Software Engineer Technical Leader",
+    "location" : "Cisco · Netanya",
+    "rationale" : "The candidate has strong software development experience, particularly in backend technologies, but lacks specific experience in security software engineering, which is the focus of the job posting."
+  }, {
+    "jobTitle" : "Senior Software Verification Engineer NVIDIA · Raanana 109 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4395922334/",
+    "fitnessRank" : 40,
+    "company" : "Senior Software Verification Engineer",
+    "location" : "NVIDIA · Raanana",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but lacks specific experience in software verification, which is the core focus of the job posting."
+  }, {
+    "jobTitle" : "Senior Staff AI Security Engineer ServiceNow · Petah Tikva (Hybrid) 147 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4415377143/",
+    "fitnessRank" : 40,
+    "company" : "Senior Staff AI Security Engineer",
+    "location" : "ServiceNow · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has strong backend development and AI skills, but lacks specific experience in security engineering, which is critical for the role of Senior Staff AI Security Engineer."
+  }, {
+    "jobTitle" : "Software Engineer ARAN Software · Center District, Israel (On-site) 2 school alumni Easy Apply Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4447876576/",
+    "fitnessRank" : 40,
+    "company" : "Software Engineer",
+    "location" : "ARAN Software · Center District, Israel (On-site)",
+    "rationale" : "The candidate has extensive experience as a Senior Software Developer and Technical Lead, but the job posting is for a Software Engineer position, which may not align with the candidate's seniority and leadership experience."
+  }, {
+    "jobTitle" : "Software Engineer, Storage NVIDIA AI · Raanana (Hybrid)",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448450642/",
+    "fitnessRank" : 40,
+    "company" : "Software Engineer, Storage",
+    "location" : "NVIDIA AI · Raanana (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and technical leadership skills, but the focus on storage engineering and specific technologies related to storage systems is lacking, making it a partial match."
+  }, {
+    "jobTitle" : "Sr Staff Engineer Software- Authentication Team (Idira) Palo Alto Networks · Petah Tikva (On-site) Actively recruiting Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445848522/",
+    "fitnessRank" : 40,
+    "company" : "Sr Staff Engineer Software- Authentication Team (Idira)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but there is no specific mention of authentication systems or related security expertise, which is likely critical for the role."
+  }, {
+    "jobTitle" : "Sr Staff Engineer Software- Authentication Team (Idira) Palo Alto Networks · Petah Tikva (On-site) Actively recruiting Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445841655/",
+    "fitnessRank" : 40,
+    "company" : "Sr Staff Engineer Software- Authentication Team (Idira)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, but the resume lacks specific mention of authentication systems or security protocols, which are likely critical for the Sr Staff Engineer role in the Authentication Team."
+  }, {
+    "jobTitle" : "Sr Staff Engineer Software- Modern Auth (Idira) Palo Alto Networks · Petah Tikva (On-site) 1 connection Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445839385/",
+    "fitnessRank" : 40,
+    "company" : "Sr Staff Engineer Software- Modern Auth (Idira)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but there is no specific mention of modern authentication systems or related security protocols, which are likely critical for the Sr Staff Engineer role."
+  }, {
+    "jobTitle" : "Staff Backend Engineer - Accounts Cloudinary · Petah Tikva (Hybrid) 13 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449384792/",
+    "fitnessRank" : 40,
+    "company" : "Staff Backend Engineer - Accounts",
+    "location" : "Cloudinary · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has strong backend development experience and relevant skills, but the resume does not specifically mention experience with accounts or the specific technologies used at Cloudinary, indicating a partial match."
+  }, {
+    "jobTitle" : "Staff Engineer Software (User Portal team) Palo Alto Networks · Petah Tikva (On-site) Actively recruiting Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446217572/",
+    "fitnessRank" : 40,
+    "company" : "Staff Engineer Software (User Portal team)",
+    "location" : "Palo Alto Networks · Petah Tikva (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, but the resume does not specifically mention user portal development or related technologies, indicating a partial match."
+  }, {
+    "jobTitle" : "System Engineer Applied Materials · Rehovot 50 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4438417473/",
+    "fitnessRank" : 40,
+    "company" : "System Engineer",
+    "location" : "Applied Materials · Rehovot",
+    "rationale" : "The candidate has strong software development experience but lacks specific system engineering skills and experience relevant to the job posting."
+  }, {
+    "jobTitle" : "System Engineer Elbit Systems Israel · Netanya 70 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4377754515/",
+    "fitnessRank" : 40,
+    "company" : "System Engineer",
+    "location" : "Elbit Systems Israel · Netanya",
+    "rationale" : "The candidate has strong software development experience but lacks specific system engineering skills and relevant experience in the defense or aerospace domain, which are likely critical for the System Engineer role."
+  }, {
+    "jobTitle" : "טכנולוג/ית IAI - Israel Aerospace Industries · Yehud Monosson (On-site) 26 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4362612534/",
+    "fitnessRank" : 40,
+    "company" : "טכנולוג/ית",
+    "location" : "IAI - Israel Aerospace Industries · Yehud Monosson (On-site)",
+    "rationale" : "The candidate has strong software development experience, but the job posting does not specify relevant skills or experience in aerospace or defense technology, making it a partial match."
+  }, {
+    "jobTitle" : "מהנדס פיתוח בכיר Elbit Systems Israel · Yavne 70 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4399774308/",
+    "fitnessRank" : 40,
+    "company" : "מהנדס פיתוח בכיר",
+    "location" : "Elbit Systems Israel · Yavne",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, but the resume does not specifically align with the job title or responsibilities of a 'Senior Development Engineer' at Elbit Systems, indicating a partial match."
+  }, {
+    "jobTitle" : "Principal Field Application Engineer (f/m/div) Infineon Technologies · Netanya (Hybrid) 4 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4389733116/",
+    "fitnessRank" : 39,
+    "company" : "Principal Field Application Engineer (f/m/div)",
+    "location" : "Infineon Technologies · Netanya (Hybrid)",
+    "rationale" : "The candidate has extensive software development experience, but the role of Principal Field Application Engineer typically requires a focus on customer-facing technical support and application engineering, which is not reflected in the candidate's background."
+  }, {
+    "jobTitle" : "Algorithm developer Applied Materials - Israel · Rehovot 5 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4445564016/",
+    "fitnessRank" : 30,
+    "company" : "Algorithm developer",
+    "location" : "Applied Materials - Israel · Rehovot",
+    "rationale" : "The candidate's experience is primarily in software development and backend technologies, which does not align well with the specific role of an algorithm developer, indicating a weak match."
+  }, {
+    "jobTitle" : "Foward Deployed Engineer Callex.co.il · Petah Tikva (Hybrid) Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449236391/",
+    "fitnessRank" : 30,
+    "company" : "Foward Deployed Engineer",
+    "location" : "Callex.co.il · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a software developer and technical lead, but the role of Forward Deployed Engineer typically requires a different skill set focused on deployment and client-facing responsibilities, which are not highlighted in the resume."
+  }, {
+    "jobTitle" : "Integration Developer Logica-IT · Center District, Israel (Hybrid) 7 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448085964/",
+    "fitnessRank" : 30,
+    "company" : "Integration Developer",
+    "location" : "Logica-IT · Center District, Israel (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a software developer and technical lead, but the resume does not indicate specific experience or skills related to integration development, which is the focus of the job posting."
+  }, {
+    "jobTitle" : "Senior Backend JavaScript Developer Bright Data · Netanya (Hybrid) 1 connection Easy Apply Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4447642704/",
+    "fitnessRank" : 30,
+    "company" : "Senior Backend JavaScript Developer",
+    "location" : "Bright Data · Netanya (Hybrid)",
+    "rationale" : "The candidate has extensive experience in backend development, particularly with Java, but lacks relevant experience in JavaScript, which is a core requirement for the role."
+  }, {
+    "jobTitle" : "Senior C# Backend Engineer Yael Korentec Technologies · Yehud Monosson (On-site) 4 company alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4444460477/",
+    "fitnessRank" : 30,
+    "company" : "Senior C# Backend Engineer",
+    "location" : "Yael Korentec Technologies · Yehud Monosson (On-site)",
+    "rationale" : "The candidate has extensive experience in backend development and microservices but lacks specific experience with C# and the associated technologies required for the role."
+  }, {
+    "jobTitle" : "Senior Embedded Software Engineer Yael Korentec Technologies · Beer Yaakov (On-site) 9 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4444456534/",
+    "fitnessRank" : 30,
+    "company" : "Senior Embedded Software Engineer",
+    "location" : "Yael Korentec Technologies · Beer Yaakov (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but lacks specific experience in embedded systems, which is critical for the role of a Senior Embedded Software Engineer."
+  }, {
+    "jobTitle" : "Software Engineer, Storage NVIDIA · Raanana (Hybrid) 109 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450014157/",
+    "fitnessRank" : 30,
+    "company" : "Software Engineer, Storage",
+    "location" : "NVIDIA · Raanana (Hybrid)",
+    "rationale" : "The candidate has extensive experience as a software developer and technical lead, but their focus on backend systems and AI workflows does not align with the specific requirements of a storage engineering role at NVIDIA."
+  }, {
+    "jobTitle" : "System Integration Specialist Yael Korentec Technologies · Beer Yaakov (On-site) 9 school alumni Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446563080/",
+    "fitnessRank" : 30,
+    "company" : "System Integration Specialist",
+    "location" : "Yael Korentec Technologies · Beer Yaakov (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but lacks specific experience in system integration, which is the focus of the job posting."
+  }, {
+    "jobTitle" : "מהנדס/ת מערכת מיצוי מידע IAI - Israel Aerospace Industries · Yehud Monosson (On-site) 27 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4279468853/",
+    "fitnessRank" : 30,
+    "company" : "מהנדס/ת מערכת מיצוי מידע",
+    "location" : "IAI - Israel Aerospace Industries · Yehud Monosson (On-site)",
+    "rationale" : "The candidate has strong software development experience, but the role of a system extraction engineer at IAI likely requires specific domain knowledge in aerospace or related fields, which is not evident in the resume."
+  }, {
+    "jobTitle" : "מהנדס/ת מערכת ראשי/ת למיירט IAI - Israel Aerospace Industries · Yehud Monosson (On-site) 26 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4389896657/",
+    "fitnessRank" : 30,
+    "company" : "מהנדס/ת מערכת ראשי/ת למיירט",
+    "location" : "IAI - Israel Aerospace Industries · Yehud Monosson (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, but the role is focused on system engineering for aerospace, which is a different domain and requires specific expertise not evident in the resume."
+  }, {
+    "jobTitle" : "מהנדס/ת פיתוח מערך היברידי IAI - Israel Aerospace Industries · Yehud Monosson (On-site) 27 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4279471524/",
+    "fitnessRank" : 30,
+    "company" : "מהנדס/ת פיתוח מערך היברידי",
+    "location" : "IAI - Israel Aerospace Industries · Yehud Monosson (On-site)",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, but the job posting for a hybrid systems engineer at IAI suggests a focus on aerospace or hybrid systems, which is not aligned with the candidate's background."
+  }, {
+    "jobTitle" : "Computing HW Engineer Applied Materials - Israel · Rehovot 5 company alumni",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4439240796/",
+    "fitnessRank" : 0,
+    "company" : "Computing HW Engineer",
+    "location" : "Applied Materials - Israel · Rehovot",
+    "rationale" : "The candidate's resume is focused on software development and backend engineering, while the job posting is for a Computing HW Engineer, which is a different role family and requires hardware engineering skills."
+  }, {
+    "jobTitle" : "Security Researcher Cellebrite · Petah Tikva (Hybrid) 1 connection Easy Apply",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4426072060/",
+    "fitnessRank" : 0,
+    "company" : "Security Researcher",
+    "location" : "Cellebrite · Petah Tikva (Hybrid)",
+    "rationale" : "The candidate's resume focuses on software development and technical leadership, with no relevant experience or skills related to security research, making it a weak match for the Security Researcher role."
+  }, {
+    "jobTitle" : "Senior AI Verification Chip Design Engineer NVIDIA · Raanana 109 company alumni Fast growing",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4438382200/",
+    "fitnessRank" : 0,
+    "company" : "Senior AI Verification Chip Design Engineer",
+    "location" : "NVIDIA · Raanana",
+    "rationale" : "The candidate's experience is primarily in software development and backend engineering, with no relevant experience in chip design or verification, which is the core focus of the job posting."
+  } ]
+}

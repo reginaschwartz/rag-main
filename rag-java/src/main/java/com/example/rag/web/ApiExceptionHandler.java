@@ -16,7 +16,7 @@ import org.springframework.web.multipart.support.MissingServletRequestPartExcept
 
 /** Renders errors as {@code {"detail": "..."}}, the shape the Python/FastAPI service returned. */
 @RestControllerAdvice
-public class ApiExceptionHandler {
+public class    ApiExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(ApiExceptionHandler.class);
 

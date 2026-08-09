@@ -16,10 +16,12 @@ import java.util.List;
 import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.stereotype.Service;
 
 /** Ingestion flows: bulk indexing from disk and single-file indexing from an upload. */
 @Service
+@ConditionalOnBean(PgVectorStore.class)
 public class IndexingService {
 
     private static final Logger log = LoggerFactory.getLogger(IndexingService.class);

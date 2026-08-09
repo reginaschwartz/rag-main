@@ -1,0 +1,323 @@
+{
+  "generatedAt" : "2026-08-09T12:15:45.110775628Z",
+  "resumePath" : "data/Java_Software_Back_End_Developer-General.docx",
+  "mailSource" : "IMAP rinatschwartz770@gmail.com@imap.gmail.com/INBOX",
+  "emailsScanned" : 14,
+  "jobsScanned" : 45,
+  "results" : [ {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448092147/",
+    "fitnessRank" : 85,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has over 15 years of experience in software development with strong proficiency in Java and Spring Boot, along with extensive experience in building scalable microservices. They also possess relevant skills in both relational and non-relational databases, making them a strong match for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450231972/",
+    "fitnessRank" : 85,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in backend development with Java and Spring Boot, along with strong cloud and microservices expertise, which aligns well with the job requirements. Additionally, their seniority and leadership experience further enhance their fit for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4440104706/",
+    "fitnessRank" : 85,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in software development, particularly in backend systems and AI integration, which aligns well with the job's focus on AI-augmented development and cloud-native solutions. Their leadership experience and technical skills in relevant technologies make them a strong match for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4407835323/",
+    "fitnessRank" : 85,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in backend development with Java and microservices, aligning well with the job requirements. Additionally, their expertise in cloud technologies and AI integration complements the role's focus on modern SaaS capabilities."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446235946/",
+    "fitnessRank" : 85,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in software development and technical leadership, particularly in AI and modern development practices, which aligns well with the job's focus on hands-on building and AI-native development. Their background in mentoring and leading teams further supports a strong fit for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446608893/",
+    "fitnessRank" : 85,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in Java and Spring Boot, along with a strong background in distributed systems and LLM integrations, which aligns well with the job requirements. Their technical leadership and experience in cloud environments further enhance their fit for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448973752/",
+    "fitnessRank" : 75,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in backend development and leadership, particularly with Java, which aligns well with the job requirements. However, the job specifically mentions .NET (C#) experience, which the candidate does not have, leading to some gaps."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448041381/",
+    "fitnessRank" : 75,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and expertise in Java and Python, which aligns well with the job requirements. However, the role's focus on semiconductor technology and specific front-end technologies like React and TypeScript presents some gaps."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4410807024/",
+    "fitnessRank" : 75,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in AI and backend development, particularly with Python and LLMs, which aligns well with the role's focus on AI solutions. However, there are gaps in specific experience with pricing models and direct product work."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448829065/",
+    "fitnessRank" : 75,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong Java development skills and extensive experience with backend systems and cloud technologies, but lacks specific experience in automation engineering and the tools mentioned in the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450231510/",
+    "fitnessRank" : 70,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in software development and AI, particularly with LLMs, but lacks specific experience with AWS and the exact role of an AI Solution Engineer as described in the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450262420/",
+    "fitnessRank" : 70,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience with Java and Python, along with relevant skills in AI and LLMs, but lacks specific experience with Node.js and the mentioned AI orchestration frameworks and vector databases."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4400243380/",
+    "fitnessRank" : 70,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience with Java and Spring Boot, as well as expertise in distributed systems and cloud environments. However, there are gaps in specific experience with the required data storage technologies and big data frameworks mentioned in the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448837457/",
+    "fitnessRank" : 70,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in backend development and microservices architecture, particularly with Java and Spring frameworks, but lacks specific experience in the Payments domain and some of the required technologies like Oracle/Postgres and security mechanisms."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449121944/",
+    "fitnessRank" : 65,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and cloud expertise, but lacks specific experience with Python and the visual moderation domain mentioned in the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4419293957/",
+    "fitnessRank" : 65,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience with Java and Spring Boot, but lacks specific experience with frontend technologies like Angular 13+, which is a key requirement for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449236391/",
+    "fitnessRank" : 60,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong technical skills in software development and experience with AI and cloud technologies, but lacks direct experience in customer-facing roles and specific knowledge of voice AI and telephony systems required for the Forward Deployed Engineer position."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4420193762/",
+    "fitnessRank" : 60,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and cloud expertise, particularly with Python and microservices, but lacks specific experience with AWS serverless stack and CDK, which are critical for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449384792/",
+    "fitnessRank" : 60,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and cloud architecture skills, but lacks specific experience with Ruby and Go, which are mentioned as advantages in the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448085964/",
+    "fitnessRank" : 60,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong Java and integration experience, but their focus on backend development and AI workflows may not fully align with the specific integration role requirements."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448984098/",
+    "fitnessRank" : 60,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and cloud expertise, but lacks specific experience with full stack development, React or Angular, and .NET Core/C#. Additionally, the job emphasizes mobile or web development which is not highlighted in the resume."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446650561/",
+    "fitnessRank" : 60,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and leadership skills, but lacks specific experience with Web/SaaS products and technologies mentioned in the job posting, such as React and PostgreSQL."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4419286912/",
+    "fitnessRank" : 55,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and familiarity with cloud technologies, but lacks specific experience with C#, AWS serverless architecture, and the cybersecurity focus of the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4370318980/",
+    "fitnessRank" : 45,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and cloud expertise, but lacks specific .NET skills and frontend experience required for the role, making it a partial match."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449205755/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development and cloud experience, but lacks specific experience in AI inference, GPU infrastructure, and customer-facing roles as required by the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4403693176/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in software development and backend technologies, but lacks specific experience in C++ and embedded software development, which are critical for the role at NVIDIA."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4430232600/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and AI skills, but lacks proficiency in C++ and specific experience in cybersecurity products, making it a partial match."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449200290/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in software development and technical leadership, but lacks specific experience in mobile core development and the telecom domain, which are critical for this role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4449733529/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong software development and AI skills, but lacks direct experience in data engineering, ETL processes, and the specific tools and technologies mentioned in the job posting, which are critical for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450244419/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and expertise in microservices and AI, but lacks the required full stack experience with React or Angular and .NET Core/C#. Additionally, the job emphasizes cloud experience with AWS, which is not mentioned in the resume."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450228861/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and skills in Java and cloud technologies, but lacks specific experience with JavaScript, C#, FHIR standards, and the healthcare domain, which are critical for this role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4441266677/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in software development and technical leadership, particularly in Java and distributed systems, but lacks specific experience in network security, systems programming with C/C++, and the preferred qualifications related to cryptography and threat modeling."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448020317/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and knowledge of distributed systems, but lacks expertise in the required JavaScript stack (Node.js, Express, NestJS) and specific cloud-native technologies mentioned in the job posting."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448018820/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in AI and backend development, but lacks specific SAP experience and ABAP development, which are critical for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448874110/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong backend development experience and leadership skills, but lacks the required expertise in JavaScript, TypeScript, React, and Node.js, which are essential for the full stack role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446670014/",
+    "fitnessRank" : 40,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong experience in AI and backend development, but lacks specific SAP experience and ABAP development, which are critical for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4279471524/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong software development skills, particularly in Java and Python, but lacks specific experience in real-time embedded systems, hardware integration, and the required educational background in electronics or electrical engineering."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4279468853/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong software development skills and experience in AI, but lacks specific expertise in image processing, computer vision, and the required domain knowledge in satellite systems, making this a weak match."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4410187600/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong software development experience but lacks specific expertise in system engineering, UAV systems, and the required educational background in engineering disciplines relevant to the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4439240796/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive software development experience, particularly in backend technologies, but lacks direct experience with computing hardware platforms, which is critical for the NPI Engineer role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4438417473/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong software development skills and experience in backend technologies, but lacks the specific systems engineering, optical, and mechatronic expertise required for the role, making it a weak match."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4448450642/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but lacks specific experience in C/C++, Linux kernel drivers, and storage solutions, which are critical for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4450014157/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in software development and backend technologies, but lacks specific experience in C/C++, Linux kernel drivers, and storage solutions, which are critical for the role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4413420945/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has extensive experience in backend development and cloud technologies, but their expertise is primarily in Java and related frameworks, not .NET or Azure, which are critical for this role."
+  }, {
+    "jobTitle" : "Unknown role",
+    "applyUrl" : "https://www.linkedin.com/jobs/view/4446563080/",
+    "fitnessRank" : 30,
+    "company" : "",
+    "location" : "",
+    "rationale" : "The candidate has strong software development skills, particularly in backend technologies, but lacks specific experience in RF and signal processing systems, as well as the required hardware integration and testing skills for the Development Verification Engineer role."
+  } ]
+}

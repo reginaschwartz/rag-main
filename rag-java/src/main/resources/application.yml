@@ -48,6 +48,37 @@ pgvector:
   connection: ${PGVECTOR_CONNECTION:}
   collection: ${PGVECTOR_COLLECTION:default}
 
+jobs:
+  # Only mail from this address, received on JOBS_SINCE (yyyy-MM-dd) or later, is scanned.
+  sender: ${JOBS_SENDER:jobalerts-noreply@linkedin.com}
+  since: ${JOBS_SINCE:}
+  resume-path: ${JOBS_RESUME_PATH:data/Java_Software_Back_End_Developer-General.docx}
+  # imap reads a real mailbox; eml replays .eml files from eml-path for offline runs.
+  source: ${JOBS_SOURCE:imap}
+  eml-path: ${JOBS_EML_PATH:data/mail-samples}
+  max-emails: ${JOBS_MAX_EMAILS:25}
+  max-jobs: ${JOBS_MAX_JOBS:100}
+  report-path: ${JOBS_REPORT_PATH:reports/job-fitness-report.json}
+  mail:
+    host: ${JOBS_MAIL_HOST:}
+    port: ${JOBS_MAIL_PORT:993}
+    protocol: ${JOBS_MAIL_PROTOCOL:imaps}
+    username: ${JOBS_MAIL_USERNAME:}
+    password: ${JOBS_MAIL_PASSWORD:}
+    folder: ${JOBS_MAIL_FOLDER:INBOX}
+  # Email jobs with fitness rank >= min-rank to this address (LLM score, ~80%+).
+  notification:
+    enabled: ${JOBS_NOTIFY_ENABLED:true}
+    to: ${JOBS_NOTIFY_TO:rinatschwartz770@gmail.com}
+    min-rank: ${JOBS_NOTIFY_MIN_RANK:80}
+    smtp:
+      host: ${JOBS_NOTIFY_SMTP_HOST:smtp.gmail.com}
+      port: ${JOBS_NOTIFY_SMTP_PORT:587}
+      start-tls: ${JOBS_NOTIFY_SMTP_START_TLS:true}
+      username: ${JOBS_NOTIFY_SMTP_USERNAME:}
+      password: ${JOBS_NOTIFY_SMTP_PASSWORD:}
+      from: ${JOBS_NOTIFY_SMTP_FROM:}
+
 rag:
   data-path: ${RAG_DATA_PATH:data/books}
   glob-pattern: ${RAG_GLOB_PATTERN:*.md}

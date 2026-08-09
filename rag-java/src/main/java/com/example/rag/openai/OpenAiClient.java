@@ -51,9 +51,18 @@ public class OpenAiClient {
     }
 
     public String chat(String prompt) {
+        return chat(null, prompt, properties.temperature());
+    }
+
+    /** Chat with an optional system message and an explicit temperature (e.g. 0 for scoring tools). */
+    public String chat(String systemPrompt, String userPrompt, Double temperature) {
+        List<Message> messages = new ArrayList<>();
+        if (systemPrompt != null && !systemPrompt.isBlank()) {
+            messages.add(new Message("system", systemPrompt));
+        }
+        messages.add(new Message("user", userPrompt));
         ChatResponse response = post("/chat/completions",
-                new ChatRequest(properties.chatModel(), List.of(new Message("user", prompt)),
-                        properties.temperature()),
+                new ChatRequest(properties.chatModel(), messages, temperature),
                 ChatResponse.class);
         if (response == null || response.choices() == null || response.choices().isEmpty()) {
             throw new IllegalStateException("OpenAI returned no chat completion choices.");

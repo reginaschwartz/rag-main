@@ -9,10 +9,12 @@ import com.example.rag.vectorstore.ScoredDocument;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.stereotype.Service;
 
 /** Retrieves the most relevant chunks for a question and asks the model to answer from them. */
 @Service
+@ConditionalOnBean(PgVectorStore.class)
 public class QueryService {
 
     private static final String CONTEXT_SEPARATOR = "\n\n---\n\n";
