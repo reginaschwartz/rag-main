@@ -16,6 +16,19 @@ services:
       interval: 5s
       timeout: 5s
       retries: 10
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: rag_rabbitmq
+    ports:
+      - "5672:5672"     # AMQP
+      - "15672:15672"   # Management UI (guest/guest)
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
   app:
     build:
       context: ./rag-java
@@ -24,11 +37,15 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
     env_file:
       - .env
     environment:
       POSTGRES_HOST: postgres
       PGVECTOR_CONNECTION: postgresql+psycopg://raguser:ragpass@postgres:5432/ragdb
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: "5672"
       # Remote debugging. address must be *:5005, not 5005, or the JVM binds
       # loopback-only inside the container and the published port never connects.
       # Use suspend=y instead when debugging startup or bean wiring.
@@ -76,6 +93,8 @@ services:
       JOBS_NOTIFY_SMTP_USERNAME: ${JOBS_NOTIFY_SMTP_USERNAME:-}
       JOBS_NOTIFY_SMTP_PASSWORD: ${JOBS_NOTIFY_SMTP_PASSWORD:-}
       JOBS_NOTIFY_SMTP_FROM: ${JOBS_NOTIFY_SMTP_FROM:-}
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: "5672"
     volumes:
       - ./data:/app/data
       - ./reports:/app/reports

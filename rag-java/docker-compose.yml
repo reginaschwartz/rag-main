@@ -1,3 +1,5 @@
+# Prefer running from repo root: cd .. && docker compose up -d --build
+# This copy mirrors rag-main/docker-compose.yml for convenience when cwd is rag-java/.
 services:
   postgres:
     image: pgvector/pgvector:pg16
@@ -10,47 +12,55 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ../init.sql:/docker-entrypoint-initdb.d/init.sql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U raguser -d ragdb"]
       interval: 5s
       timeout: 5s
       retries: 10
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: rag_rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
   app:
     build:
-      context: ./rag-java
+      context: .
       dockerfile: Dockerfile
     container_name: rag_app
     depends_on:
       postgres:
+        condition: service_healthy
+      rabbitmq:
         condition: service_healthy
     env_file:
       - .env
     environment:
       POSTGRES_HOST: postgres
       PGVECTOR_CONNECTION: postgresql+psycopg://raguser:ragpass@postgres:5432/ragdb
-      # Remote debugging. address must be *:5005, not 5005, or the JVM binds
-      # loopback-only inside the container and the published port never connects.
-      # Use suspend=y instead when debugging startup or bean wiring.
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: "5672"
       JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006"
     ports:
       - "8000:8000"
-      # Loopback-only: an open JDWP port is unauthenticated remote code execution.
       - "127.0.0.1:5006:5006"
     volumes:
-      # Mounted so the bulk indexer (--rag.cli=index) can read documents from the host.
-      - ./data:/app/data
+      - ../data:/app/data
       - ./reports:/app/reports
-    # API only — do not pass --rag.cli=jobs here; JobScanAgent runs via POST /jobs/scan.
     restart: unless-stopped
 
-  # Optional one-shot CLI only. Not started by `docker compose up` (profile: jobs).
-  # Prefer POST /jobs/scan on the `app` service. To run CLI manually:
-  #   docker compose --profile jobs run --rm job-agent
   job-agent:
     profiles: ["jobs"]
     build:
-      context: ./rag-java
+      context: .
       dockerfile: Dockerfile
     container_name: rag_job_agent
     env_file:
@@ -76,8 +86,10 @@ services:
       JOBS_NOTIFY_SMTP_USERNAME: ${JOBS_NOTIFY_SMTP_USERNAME:-}
       JOBS_NOTIFY_SMTP_PASSWORD: ${JOBS_NOTIFY_SMTP_PASSWORD:-}
       JOBS_NOTIFY_SMTP_FROM: ${JOBS_NOTIFY_SMTP_FROM:-}
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: "5672"
     volumes:
-      - ./data:/app/data
+      - ../data:/app/data
       - ./reports:/app/reports
     command: ["--rag.cli=jobs"]
     restart: "no"
