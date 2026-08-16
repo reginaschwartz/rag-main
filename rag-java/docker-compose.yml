@@ -72,12 +72,16 @@ services:
       JOBS_EML_PATH: ${JOBS_EML_PATH:-data/mail-samples}
       JOBS_REPORT_PATH: ${JOBS_REPORT_PATH:-reports/job-fitness-report.json}
       JOBS_SENDER: ${JOBS_SENDER:-jobalerts-noreply@linkedin.com}
+      JOBS_ALERT_SENDERS: ${JOBS_ALERT_SENDERS:-jobalerts-noreply@linkedin.com,jobs-noreply@linkedin.com}
+      JOBS_GLASSDOOR_SENDERS: ${JOBS_GLASSDOOR_SENDERS:-noreply@glassdoor.com}
       JOBS_MAIL_HOST: ${JOBS_MAIL_HOST:-}
       JOBS_MAIL_PORT: ${JOBS_MAIL_PORT:-993}
       JOBS_MAIL_PROTOCOL: ${JOBS_MAIL_PROTOCOL:-imaps}
       JOBS_MAIL_USERNAME: ${JOBS_MAIL_USERNAME:-}
       JOBS_MAIL_PASSWORD: ${JOBS_MAIL_PASSWORD:-}
       JOBS_MAIL_FOLDER: ${JOBS_MAIL_FOLDER:-INBOX}
+      JOBS_MAIL_ARCHIVE_FOLDER: ${JOBS_MAIL_ARCHIVE_FOLDER:-jobalerts_linkdin}
+      JOBS_MAIL_GLASSDOOR_FOLDER: ${JOBS_MAIL_GLASSDOOR_FOLDER:-glassdoor}
       JOBS_NOTIFY_ENABLED: ${JOBS_NOTIFY_ENABLED:-true}
       JOBS_NOTIFY_TO: ${JOBS_NOTIFY_TO:-rinatschwartz770@gmail.com}
       JOBS_NOTIFY_MIN_RANK: ${JOBS_NOTIFY_MIN_RANK:-80}

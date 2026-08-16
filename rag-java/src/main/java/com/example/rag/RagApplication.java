@@ -16,8 +16,8 @@ public class RagApplication {
             // The batch/query/jobs scripts are one-shot commands, so no HTTP server is started for them.
             application.setWebApplicationType(WebApplicationType.NONE);
         }
-        if (CliMode.isJobs(args)) {
-            // Job scanning only needs mail + OpenAI; skip Postgres wiring.
+        if (CliMode.skipsDatabase(args)) {
+            // Job scanning / mail move only need mail (+ OpenAI for jobs); skip Postgres wiring.
             System.setProperty("rag.database.enabled", "false");
             System.setProperty("spring.autoconfigure.exclude",
                     "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,"

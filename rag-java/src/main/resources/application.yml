@@ -51,6 +51,9 @@ pgvector:
 jobs:
   # Only mail from this address, received on JOBS_SINCE (yyyy-MM-dd) or later, is scanned.
   sender: ${JOBS_SENDER:jobalerts-noreply@linkedin.com}
+  # Comma-separated From addresses moved INBOX → archive-folder via --rag.cli=mail-move.
+  alert-senders: ${JOBS_ALERT_SENDERS:jobalerts-noreply@linkedin.com,jobs-noreply@linkedin.com}
+  glassdoor-senders: ${JOBS_GLASSDOOR_SENDERS:noreply@glassdoor.com}
   since: ${JOBS_SINCE:}
   resume-path: ${JOBS_RESUME_PATH:data/Java_Software_Back_End_Developer-General.docx}
   # imap reads a real mailbox; eml replays .eml files from eml-path for offline runs.
@@ -66,6 +69,8 @@ jobs:
     username: ${JOBS_MAIL_USERNAME:}
     password: ${JOBS_MAIL_PASSWORD:}
     folder: ${JOBS_MAIL_FOLDER:INBOX}
+    archive-folder: ${JOBS_MAIL_ARCHIVE_FOLDER:jobalerts_linkdin}
+    glassdoor-folder: ${JOBS_MAIL_GLASSDOOR_FOLDER:glassdoor}
   # Email jobs with fitness rank >= min-rank to this address (LLM score, ~80%+).
   notification:
     enabled: ${JOBS_NOTIFY_ENABLED:true}
