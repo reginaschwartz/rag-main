@@ -1,0 +1,49 @@
+package com.example.rag.jobs;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import com.example.rag.jobs.mail.EmailMessage;
+import java.time.Instant;
+import java.util.List;
+import org.junit.jupiter.api.Test;
+
+class LinkedInJobParserTest {
+
+    private final LinkedInJobParser parser = new LinkedInJobParser();
+
+    @Test
+    void extractsTitleCompanyLocationAndCanonicalApplyUrl() {
+        String html = """
+                <html><body><table><tr><td>
+                  <a href="https://www.linkedin.com/jobs/view/4123456789/?refId=abc">Senior Java Backend Engineer</a><br/>
+                  Acme Cloud Ltd<br/>
+                  Tel Aviv, Israel<br/>
+                  Java Spring Boot Kafka
+                </td></tr></table></body></html>
+                """;
+
+        List<JobPosting> jobs = parser.parse(email(html));
+
+        assertThat(jobs).hasSize(1);
+        JobPosting job = jobs.getFirst();
+        assertThat(job.id()).isEqualTo("4123456789");
+        assertThat(job.title()).isEqualTo("Senior Java Backend Engineer");
+        assertThat(job.company()).isEqualTo("Acme Cloud Ltd");
+        assertThat(job.applyUrl()).isEqualTo("https://www.linkedin.com/jobs/view/4123456789/");
+    }
+
+    @Test
+    void deduplicatesRepeatedJobLinks() {
+        String html = """
+                <a href="https://www.linkedin.com/jobs/view/111/">Java Engineer</a>
+                <a href="https://www.linkedin.com/jobs/view/111/?tracking=1">Java Engineer</a>
+                """;
+
+        assertThat(parser.parse(email(html))).hasSize(1);
+    }
+
+    private static EmailMessage email(String html) {
+        return new EmailMessage("id-1", "alerts", "jobalerts-noreply@linkedin.com", Instant.parse("2026-08-07T10:00:00Z"),
+                html, "");
+    }
+}

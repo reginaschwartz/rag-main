@@ -1,0 +1,8 @@
+target
+out
+secrets/**
+!secrets/.gitkeep
+.idea
+*.iml
+.DS_Store
+.env

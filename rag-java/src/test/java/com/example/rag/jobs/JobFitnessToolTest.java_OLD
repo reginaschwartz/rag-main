@@ -1,0 +1,39 @@
+package com.example.rag.jobs;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.ArgumentMatchers.contains;
+import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import com.example.rag.openai.OpenAiClient;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.Test;
+
+class JobFitnessToolTest {
+
+    @Test
+    void parsesLlmFitnessRankIntoReportFields() {
+        OpenAiClient openAi = mock(OpenAiClient.class);
+        when(openAi.chat(anyString(), contains("Senior Java"), eq(0.0)))
+                .thenReturn("{\"fitnessRank\": 88, \"rationale\": \"Strong Java and Spring overlap.\"}");
+
+        JobFitnessTool tool = new JobFitnessTool(openAi, new ObjectMapper());
+        Resume resume = new Resume("resume.docx", "Java Spring Boot engineer");
+        JobPosting job = new JobPosting(
+                "4123456789",
+                "Senior Java Backend Engineer",
+                "Acme",
+                "Tel Aviv",
+                "https://www.linkedin.com/jobs/view/4123456789/",
+                "Java Spring Boot Kafka");
+
+        JobFitnessResult result = tool.checkFitness(resume, job);
+
+        assertThat(result.jobTitle()).isEqualTo("Senior Java Backend Engineer");
+        assertThat(result.applyUrl()).isEqualTo("https://www.linkedin.com/jobs/view/4123456789/");
+        assertThat(result.fitnessRank()).isEqualTo(88);
+        assertThat(result.rationale()).contains("Spring");
+    }
+}
