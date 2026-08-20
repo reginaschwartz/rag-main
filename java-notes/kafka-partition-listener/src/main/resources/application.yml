@@ -1,0 +1,40 @@
+# Server-side Spring Cloud Stream consumer.
+# The binder polls Kafka internally; application code is a callback, not a poll loop.
+spring:
+  application:
+    name: partition-listener
+  main:
+    web-application-type: none
+  cloud:
+    function:
+      definition: onMessage
+    stream:
+      instance-index: ${LISTEN_PARTITION:0}
+      instance-count: ${TOPIC_PARTITIONS:3}
+      bindings:
+        onMessage-in-0:
+          destination: ${KAFKA_TOPIC:workstation.events}
+          group: partition-listener
+          consumer:
+            partitioned: true
+            concurrency: 1
+      kafka:
+        binder:
+          brokers: ${KAFKA_BOOTSTRAP:localhost:19092}
+          auto-create-topics: false
+          auto-add-partitions: false
+          replication-factor: 1
+        bindings:
+          onMessage-in-0:
+            consumer:
+              # Static assignment: this instance only receives
+              # partitions where partition % instanceCount == instanceIndex.
+              auto-rebalance-enabled: false
+              start-offset: earliest
+
+logging:
+  level:
+    root: INFO
+    org.apache.kafka: WARN
+    org.springframework.kafka: INFO
+    com.example.kafkapartition: INFO
